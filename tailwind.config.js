@@ -8,9 +8,30 @@ module.exports = {
       'portrait': {'raw': '(orientation: portrait)'},
     },
     extend: {
+      boxShadow: {
+        border: '0 2px 0 0 #181b21'
+      },
       backgroundImage: theme => ({
-        'model-3': "url('./../img/m3.jpg')",
-        'mobile-model-3': "url('./../img/mobile-m3.jpg')",
+        'model-s': "url('./../img/model-s.jpg')",
+        'mobile-model-s': "url('./../img/mobile-model-s.jpg')",
+
+        'model-y': "url('./../img/model-y.jpg')",
+        'mobile-model-y': "url('./../img/mobile-model-y.jpg')",
+
+        'model-3': "url('./../img/model-3.jpg')",
+        'mobile-model-3': "url('./../img/mobile-model-3.jpg')",
+
+        'model-x': "url('./../img/model-x.jpg')",
+        'mobile-model-x': "url('./../img/mobile-model-x.jpg')",
+
+        'solar-panels': "url('./../img/solar-panels.jpg')",
+        'mobile-solar-panels': "url('./../img/mobile-solar-panels.jpg')",
+
+        'solar-roof': "url('./../img/solar-roof.jpg')",
+        'mobile-solar-roof': "url('./../img/mobile-solar-roof.jpg')",
+
+        'accessories': "url('./../img/accessories.jpg')",
+        'mobile-accessories': "url('./../img/mobile-accessories.jpg')",
       }),
     },
   },
